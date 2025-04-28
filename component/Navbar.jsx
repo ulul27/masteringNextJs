@@ -18,7 +18,7 @@ return (
         </div>
 
         <div className="position-relative rounded-pil">
-          <button type="button" className="btn btn-outline-secondary m-2 px-4 rounded-pill">Sign In</button>
+          <Link className="btn btn-outline-secondary m-2 px-4 rounded-pill" href="/signin">Sign In</Link>
           <button type="button" className="btn btn-dark m-2 px-4 rounded-pill">Sign Up</button>
         </div>
       </nav>
