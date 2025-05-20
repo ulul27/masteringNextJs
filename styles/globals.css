@@ -41,5 +41,11 @@
   .browse {
     background-color: #642DFB;
     color: #FFFFFF;
+    border: none;
     }
+
+  .off {
+    background-color: #EBEDF3;
+    border: none;
+  }
     

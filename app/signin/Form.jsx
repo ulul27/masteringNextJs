@@ -1,4 +1,5 @@
 import '../../styles/globals.css'
+import Link from 'next/link'
 
 import Image from 'next/image'
 import Apel from '../../asseets/img/apple.png'
@@ -23,7 +24,7 @@ export default function Form () {
               <input type="email" class="form-control rounded-pill mb-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="type your password" />
 
               <button className="browse rounded-pill py-2 w-100 mb-2">Sign In</button>
-              <button className="btn btn-secondary rounded-pill py-2 w-100">Create New Account</button>
+              <Link className="btn off rounded-pill py-2 w-100" href="/signup" >Create New Account</Link>
               
             </div>
           </div>
@@ -31,26 +32,43 @@ export default function Form () {
       </div>
      </div>
 
-     <div className="container pt-5">
+     {/* <div className="container w-50 pt-5">
       <div className="row">
         <div className="col">
-          <Image src={Apel} alt="apel dong" />
+          <Image src={Apel} width={87} height={30} alt="apel dong" />
         </div>
         <div className="col">
-          <Image src={Adobe} alt="adobe dong" />
+          <Image src={Adobe} width={125} height={30} alt="adobe dong" />
         </div>
         <div className="col">
-          <Image src={slack} alt="slack dong" />
+          <Image src={slack} width={118} height={30} alt="slack dong" />
         </div>
         <div className="col">
-          <Image src={Spotify} alt="spotify dong" />
+          <Image src={Spotify} width={100} height={30} alt="spotify dong" />
         </div>
         <div className="col">
-          <Image src={Google} alt="google dong" />
+          <Image src={Google} width={91} height={30} alt="google dong" />
         </div>
       </div>
-     </div>
+     </div> */}
     
+    <div className="d-flex justify-content-center mt-5 p-5">
+        {/* <div>  */}
+            <Image src={Apel} className="mx-3" width={87} height={30} alt="apel dong" />
+        {/* </div> */}
+        {/* <div> */}
+            <Image src={Adobe} className="mx-3" width={125} height={30} alt="adobe dong" />
+        {/* </div> */}
+        {/* <div className="mx-3"> */}
+          <Image src={slack} className="mx-3" width={118} height={30} alt="slack dong" />
+        {/* </div> */}
+        {/* <div> */}
+          <Image src={Spotify} className="mx-3" width={100} height={30} alt="spotify dong" />
+        {/* </div> */}
+        {/* <div> */}
+          <Image src={Google} className="mx-3" width={91} height={30} alt="google dong" />
+        {/* </div> */}
+     </div>
     </>
   )
 }

@@ -31,7 +31,7 @@ function page () {
         pilihan="Gold Plan"
         kategori="Suitable for big company"
         items={["Customizble layers","Official documentation","SVG icons", "SVG illustrations","Pre-built design screen", "Coded template", "Support 24/7", "Private designer group", "Unclock cloning app"]}
-        colorButton="btn btn-primary py-2"
+        colorButton="btn browse py-2"
         />
       </div>
     </div>
