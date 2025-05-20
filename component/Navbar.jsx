@@ -14,7 +14,7 @@ return (
           <Link className="nav-link p-2 fw-bold" href="/">Home</Link>
           <Link className="nav-link p-2" href="/categories">Categories</Link>
           <Link className="nav-link p-2" href="/pricing">Pricing</Link>
-          <Link className="nav-link p-2" href="/">Study Case</Link>
+          <Link className="nav-link p-2" href="/studi">Study Case</Link>
         </div>
 
         <div className="position-relative rounded-pil">
