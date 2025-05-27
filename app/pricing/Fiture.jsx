@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Fiture ({gambar, nama, rincian}) {
   return (
     <>
-                <div className="col-md-3">
+            <div className="col-md-3">
               <div className="card border-light p-2">
                 <div className="p-4">
                   <Image
