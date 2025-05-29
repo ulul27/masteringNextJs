@@ -1,20 +1,22 @@
 import Image from 'next/image'
 import Cek from '../../asseets/img/Group36.png'
 
-export default function Featur ({nama, gambar}) {
+export default function Featur ({nama}) {
   return (
     <>
-  
+        
           <ul className="list-unstyled">
-            <li className="">{nama}
-              <Image
+            <li className="d-flex justify-content-between">{nama}
+              {/* <Image
               src={gambar}
               alt="..."/>
-            </li>
-            {/* <Image
+            </li> */}
+            <Image
             src={Cek}
-            alt="..."/> */}
+            alt="..."/>
+            </li>
           </ul>
+        
     
     </>
   )

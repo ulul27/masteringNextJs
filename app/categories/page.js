@@ -19,7 +19,7 @@ function page () {
     <Navibar/>
 
     <div className="container">
-      <h1>Robocrypto UI Kit</h1>
+      <h1 className="fw-bold">Robocrypto UI Kit</h1>
       <p>Built your next coin startup</p>
     
         <div className="row">
@@ -58,13 +58,13 @@ function page () {
 
                 <p className="fw-bold my-3">Great Features</p>
 
-                <div className="row d-flex justify-content-between">
+                <div className="row">
 
                 <Featur
                 nama="Customizable layers"
-                gambar={Cek}
+                // gambar={Cek}
                 />
-                {/* <Featur
+                <Featur
                 nama="Documentation"
                 />
                 <Featur
@@ -72,7 +72,7 @@ function page () {
                 />
                 <Featur
                 nama="Pre-built UI screeens"
-                /> */}
+                />
                 </div>
 
                 <button className="browse rounded-pill py-3 m-4">Download Now</button>
