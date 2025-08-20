@@ -1,8 +1,8 @@
-import './layout.js';
 import Navibar from '../component/Navbar.jsx'
 import Heroo from '../component/Hero.jsx'
 import Cate from '../component/TopCate.jsx'
 import Newit from '../component/Item.jsx'
+import Artikel from '../component/Artikel.jsx';
 
 // Asset Categories
 import Mui from '../asseets/img/Group226.png'
@@ -82,7 +82,17 @@ function page() {
           </div>
         </div>
 
+    {/* Artikel */}
+    <div className="container">
+      <div className="row">
+        <h5 className="col py-4 pop-22">Articles</h5>
+      </div>
 
+      <div className="row">
+        <Artikel/>
+      </div>
+
+    </div>
     </>
     
   );
