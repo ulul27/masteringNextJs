@@ -3,6 +3,7 @@ import Heroo from '../component/Hero.jsx'
 import Cate from '../component/TopCate.jsx'
 import Newit from '../component/Item.jsx'
 import Artikel from '../component/Artikel.jsx';
+import Portfolio from '../component/Portfolio.jsx';
 
 // Asset Categories
 import Mui from '../asseets/img/Group226.png'
@@ -93,6 +94,9 @@ function page() {
       </div>
 
     </div>
+
+    {/* Portfolio */}
+    <Portfolio/>
     </>
     
   );
